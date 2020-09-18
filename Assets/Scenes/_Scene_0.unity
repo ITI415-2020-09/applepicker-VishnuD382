@@ -314,7 +314,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8284247461cb094eadc23ae5e4bf4b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  applePrefab: {fileID: 0}
+  applePrefab: {fileID: 2233977908360638295, guid: 7a691f471145d4a47a6a8b87a228ed81,
+    type: 3}
   speed: 10
   leftAndRightEdge: 10
   chanceToChangeDirection: 0.02
@@ -326,10 +327,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7368145999490927914, guid: f46c2a0f15e2bfb4d98660c5b711aa5e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7368145999572069271, guid: f46c2a0f15e2bfb4d98660c5b711aa5e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7368146001106753217, guid: f46c2a0f15e2bfb4d98660c5b711aa5e,
         type: 3}
       propertyPath: m_Name
       value: Apple Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 7368146001106753217, guid: f46c2a0f15e2bfb4d98660c5b711aa5e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7368146001106753218, guid: f46c2a0f15e2bfb4d98660c5b711aa5e,
         type: 3}
